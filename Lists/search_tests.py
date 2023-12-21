@@ -11,10 +11,6 @@ class TestSearch(TestCase):
     ##############
 
     def test_example_unit_test(self):
-        # Storing into a variable so don't need to copy and paste long list every time
-        # If you want to store search results into a variable like this, make sure you pass a copy of it when
-        # calling a function, otherwise the original list (ie the one stored in your variable) might be
-        # mutated. To make a copy, you may use the .copy() function for the variable holding your search result.
         expected_dog_search_results = ['Edogawa, Tokyo', 'Kevin Cadogan', 'Endogenous cannabinoid', 'Black dog (ghost)', '2007 Bulldogs RLFC season', 'Mexican dog-faced bat', 'Dalmatian (dog)', 'Guide dog', '2009 Louisiana Tech Bulldogs football team', 'Georgia Bulldogs football', 'Endoglin', 'Sun dog', 'The Mandogs', 'Georgia Bulldogs football under Robert Winston', 'Landseer (dog)']
         self.assertEqual(search('dog'), expected_dog_search_results)
 
@@ -134,7 +130,6 @@ class TestSearch(TestCase):
 
         # Test whether calling display_results() with given user input equals expected printout
         self.assertEqual(output, expected)
-
-# Write tests above this line. Do not remove.
+        
 if __name__ == "__main__":
     main()
