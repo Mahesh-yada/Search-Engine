@@ -1,7 +1,4 @@
 from wiki import article_metadata, ask_search, ask_advanced_search
-
-# FOR ALL OF THESE FUNCTIONS, READ THE FULL INSTRUCTIONS.
-
 # 1) 
 #
 # Function: search
@@ -15,8 +12,6 @@ from wiki import article_metadata, ask_search, ask_advanced_search
 #   article metadata.
 #   
 #   If the user does not enter anything, return an empty list
-#
-# Hint: to get list of existing article metadata, use article_metadata()
 def search(keyword):
 # If keyword is empty return empty list
      if len(keyword) == 0:
