@@ -2,8 +2,6 @@ from wiki import article_metadata, ask_search, ask_advanced_search
 import datetime
 import time
 
-# FOR ALL OF THESE FUNCTIONS, READ THE FULL INSTRUCTIONS.
-
 # 1) 
 #
 # Function: keyword_to_titles
