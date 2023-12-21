@@ -181,6 +181,5 @@ class TestSearch(TestCase):
 
         self.assertEqual(output, expected)
 
-# Write tests above this line. Do not remove.
 if __name__ == "__main__":
     main()
