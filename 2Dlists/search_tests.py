@@ -100,8 +100,6 @@ class TestSearch(TestCase):
         self.assertEqual(refine_search('canadian', metadata ), metadata)
         self.assertEqual(refine_search('canadian', [['List of Canadian musicians', 'Jack Johnson', 1181623340, 21023], ['2009 in music', 'RussBot', 1235133583, 69451], ['Lights (musician)', 'Burna Boy', 1213914297, 5898], ['Will Johnson (soccer)', 'Burna Boy', 1218489712, 3562], ['2007 in music', 'Bearcat', 1169248845, 45652]]), [['List of Canadian musicians', 'Jack Johnson', 1181623340, 21023], ['2009 in music', 'RussBot', 1235133583, 69451], ['Lights (musician)', 'Burna Boy', 1213914297, 5898], ['Will Johnson (soccer)', 'Burna Boy', 1218489712, 3562], ['2007 in music', 'Bearcat', 1169248845, 45652]])
 
-
-
     #####################
     # INTEGRATION TESTS #
     #####################
