@@ -9,8 +9,6 @@ from wiki import article_titles, ask_search, ask_advanced_search
 #
 # Returns: list of article titles containing given keyword (case insensitive).
 # If the keyword is empty or no results are found, return an empty list.
-#
-# Hint: to get list of existing article titles, use article_titles()
 def search(keyword):
     # If keyword is empty return empty list
     if len(keyword) == 0:
