@@ -25,7 +25,6 @@ def search(keyword):
             article_with_keyword.append(title)
 
     return article_with_keyword
-            
 
 # 2) 
 #
