@@ -3,6 +3,7 @@ This project implements a versatile search engine capable of retrieving relevant
 Features:
 
 List Search:
+
 Searches article titles and lists.
 Basic search functionality.
 Advanced options include:
@@ -13,6 +14,7 @@ Checking if a favorite article is in the results.
 Searching for multiple keywords.
 
 2D Lists Search:
+
 Searches article metadata using 2D lists.
 More detailed search with metadata.
 Advanced options include:
@@ -24,6 +26,7 @@ Retrieving only title and author information.
 Searching for multiple keywords.
 
 Dictionaries Search:
+
 Searches article metadata using dictionaries.
 Efficient search with structured data.
 Advanced options include:
@@ -34,6 +37,7 @@ Checking if a favorite author wrote any articles in the results.
 Searching for multiple keywords.
 
 Project Structure:
+
 search.py: Main script to perform searches in each part.
 list_search.py: Contains functions for list search functionality.
 2d_lists_search.py: Contains functions for 2D lists search functionality.
@@ -42,14 +46,17 @@ data/: Directory containing sample data files for testing.
 README.md: Project documentation and usage instructions.
 
 Usage:
+
 Run search.py.
 Input a search word.
 Choose a search mode (List, 2D Lists, Dictionaries).
 Depending on the mode, respond to the advanced options prompts accordingly.
 
 Contributing:
+
 Contributions, suggestions, and bug reports are welcome.
 Fork the repository, make your changes, and submit a pull request.
 
 License:
+
 This project is licensed under the MIT License.
