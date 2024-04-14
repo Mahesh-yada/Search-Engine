@@ -1,9 +1,55 @@
-A search engine takes a given search phrase or word and finds pages on the internet that are relevant, ranks the pages, and then displays the pages in the order of ranking.
+This project implements a versatile search engine capable of retrieving relevant articles based on user queries. The search engine operates in three modes: List search, 2D lists search, and Dictionaries search, each offering different functionalities and outputs based on the structure of the data.
 
-Lists search works with the article titles and lists, and a user searches with word to get a list of article titles with that keyword. The user is also able to do the following advanced searches: restrict the maximum article title length, get a certain number of articles, get a random article, check whether a favorite article is in the returned list, and search for multiple keywords.
+Features:
 
-2Dlists search works with article metadata (article title, author, timestamp, length of article, and list of keywords of the article) and 2D lists. A user searches with a word and gets a list of article metadata for articles that include the given word in its keywords list. The user is also able to do the following advanced searches: restrict the maximum article title length, get a certain number of articles, get a random article, check whether a favorite article is in the returned list, receive only title and author information, and search for multiple keywords.
+List Search:
+Searches article titles and lists.
+Basic search functionality.
+Advanced options include:
+Restricting maximum article title length.
+Specifying the number of articles to retrieve.
+Getting a random article.
+Checking if a favorite article is in the results.
+Searching for multiple keywords.
 
-Dictionaries search works with article metadata (article title, author, timestamp, length of article, and list of keywords of the article) and dictionaries. A user searches with a word and gets a list of article titles for articles that include the given word in its keywords list. The user is also able to do the following advanced searches: get the articles' metadata, restrict the maximum article title length, receive only titles and timestamp information, check whether a favorite article wrote any articles in the returned article titles list, and search for multiple keywords.
+2D Lists Search:
+Searches article metadata using 2D lists.
+More detailed search with metadata.
+Advanced options include:
+Restricting maximum article title length.
+Specifying the number of articles to retrieve.
+Getting a random article.
+Checking if a favorite article is in the results.
+Retrieving only title and author information.
+Searching for multiple keywords.
 
-search.py: performs a search (in each part). To do so, input a word when prompted, choose an advanced option, and input an appropriate response to the advanced option question.
+Dictionaries Search:
+Searches article metadata using dictionaries.
+Efficient search with structured data.
+Advanced options include:
+Retrieving the articles' metadata.
+Restricting maximum article title length.
+Retrieving only titles and timestamp information.
+Checking if a favorite author wrote any articles in the results.
+Searching for multiple keywords.
+
+Project Structure:
+search.py: Main script to perform searches in each part.
+list_search.py: Contains functions for list search functionality.
+2d_lists_search.py: Contains functions for 2D lists search functionality.
+dictionaries_search.py: Contains functions for dictionaries search functionality.
+data/: Directory containing sample data files for testing.
+README.md: Project documentation and usage instructions.
+
+Usage:
+Run search.py.
+Input a search word.
+Choose a search mode (List, 2D Lists, Dictionaries).
+Depending on the mode, respond to the advanced options prompts accordingly.
+
+Contributing:
+Contributions, suggestions, and bug reports are welcome.
+Fork the repository, make your changes, and submit a pull request.
+
+License:
+This project is licensed under the MIT License.
