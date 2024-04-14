@@ -39,10 +39,15 @@ Searching for multiple keywords.
 Project Structure:
 
 search.py: Main script to perform searches in each part.
+
 list_search.py: Contains functions for list search functionality.
+
 2d_lists_search.py: Contains functions for 2D lists search functionality.
+
 dictionaries_search.py: Contains functions for dictionaries search functionality.
+
 data/: Directory containing sample data files for testing.
+
 README.md: Project documentation and usage instructions.
 
 Usage:
